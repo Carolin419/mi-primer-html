@@ -1,57 +1,84 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<style>
-table, th, td {
-  border: 1px solid black;
-  border-radius: 10px;
-}
-</style>
-<title>Pagina de Caro</title>
+  <title>Pagina de Caro</title>
+  <style>
+    .tabla-1 table,
+    tr,
+    th,
+    td {
+      border: 1px solid black;
+      border-collapse: collapse;
+    }
+
+    .border-0 * {
+      border: 0px;
+    }
+  </style>
 </head>
+
 <body style="background-color:powderblue;">
+  <h1
+    style="font-family:verdana;font-size:300%;color:rgb(174, 0, 71);text-align:center;background-color:rgb(255, 171, 71);">
+    HOLA MUNDO SOY CARO</h1>
+  <p style="font-family:courier;text-align:center;"><b>Este es mi primer ejercicio de repositorios.</b> <a
+      href="https://github.com/Carolin419" style="color:rgb(0, 74, 88)">Mis repositorios</a></p>
+  <p style="font-family:courier;text-align:center;"><em>Este ejercicio es divertido pero ya no se que mas escribir para
+      ver cosas diferentes</em></p><br>
 
 
-<h1 style="font-family:verdana;font-size:300%;color:rgb(174, 0, 71);text-align:center;background-color:rgb(255, 171, 71);">HOLA MUNDO SOY CARO</h1>
-<p style="font-family:courier;text-align:center;"><b>Este es mi primer ejercicio de repositorios.</b> <a href="https://github.com/Carolin419"style="color:rgb(0, 74, 88)">Mis repositorios</a></p>
-<p style="font-family:courier;text-align:center;"><em>Este ejercicio es divertido pero ya no se que mas escribir para ver cosas diferentes</em></p>
+  <form>
+    <table class="border-0">
+      <tr style="height:40px">
+        <th colspan="3">REGISTRAR PERSONAS</th>
+      </tr>
+      <tr>
+        <td><input type="text" id="fname" name="fname" value="Nombre"><br><br></td>
+        <td><input type="text" id="lname" name="lname" value="Primer apellido"><br><br></td>
+        <td><input type="text" id="lname" name="lname" value="Segundo apellido" ><br><br></td>
+      </tr>
 
-<center>
-<img src="https://concepto.de/wp-content/uploads/2015/03/paisaje-e1549600034372.jpg" alt="concepto.de">
+      <tr class="border-0">
+        <td><input type="text" id="lname" name="lname" value="Direccion" ><br><br></td>
+        <td><input type="text" id="lname" name="lname" value="Numero de telefono" ><br><br></td>
+        <td><input type="text" id="lname" name="lname" value="Email" ><br><br></td>
+      </tr>
+    </table>
+    <input type="submit" style="background-color:blue;color:white;border-color:blue" value="Guardar">
+  </form>
 
-<table style="width:30%">
-  <tr>
-    <th>Primer nombre</th>
-    <th>Apellido</th> 
-    <th>Edad</th>
-<th>Gustos</th>
-  </tr>
-  <tr>
-    <td>Robin</td>
-    <td>Arellano</td>
-    <td>30</td>
-<th>Anime</th>
-  </tr>
-  <tr>
-    <td>Esme</td>
-    <td>Diaz</td>
-    <td>29</td>
-<th>Ver pelis</th>
-  </tr>
-  <tr>
-    <td>Leydi</td>
-    <td>Jaramillo</td>
-    <td>28</td>
-<th>musica</th>
-  </tr>
-<tr>
-    <td>Caro</td>
-    <td>Diaz</td>
-    <td>23</td>
-<th>Pintar</th>
-  </tr>
-</table>
-</center>
+  <br><br>
+
+  <div class="tabla-1">
+    <table style="width: 40%">
+      <thead>
+        <tr style="height:50px">
+          <th colspan="3">TABLA</th>
+        </tr>
+        <tr>
+          <th>Nombre</th>
+          <th>Primer Apellido</th>
+          <th>Segundo Apellido</th>
+        </tr>
+
+      </thead>
+
+      <tr>
+        <td style="height:20px">
+        <td style="height:20px">
+        <td style="height:20px">
+      </tr>
+
+      <tr>
+        <td style="height:20px">
+        <td style="height:20px">
+        <td style="height:20px">
+      </tr>
+    </table>
+  </div>
+
 
 </body>
+
 </html>
